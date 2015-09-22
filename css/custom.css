@@ -1,0 +1,266 @@
+body {
+	/*background: #fff url('../images/bg-site.png') repeat top left;*/
+	font-family: "source_sans_proregular", Arial, sans-serif;
+}
+
+a{
+	color: #0072bc;
+    text-decoration: none;
+    transition: .5s all;
+    padding-bottom: 3px;
+	border-bottom: 1px solid rgba(0, 114, 188, 0);
+}
+
+a:hover{
+	border-bottom: 2px solid rgba(15, 160, 206, 0.39);
+}
+
+h2.title{
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-family: "source_sans_probold";
+	margin-top: 0;
+}
+
+.logo {
+	float: left;
+	margin-left: 10px;
+}
+
+.logo img{
+	height: 60px;
+}
+
+.branding{
+	float: right;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'dejavu_serifbook';
+    font-size: 1.5em;
+}
+
+.nav-bar{
+	padding: 20px;
+	background-color: #5377BF;
+}
+
+.nav-bar ul {
+	list-style: none;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.nav-bar ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.nav-bar ul a {
+	text-decoration: none;
+	padding-top: 10px;
+	color: #D4D4D4;
+	border-top: 1px solid #a1a1a1;
+	transition: all .3s;
+	border-bottom: none;
+}
+
+.nav-bar ul a:hover {
+	color: white;
+	border-top: 1px solid white;
+	border-bottom: none;
+}
+
+.nav-bar ul a.active {
+	color: white;
+	border-top: 1px solid white;
+}
+
+.nav-bar nav {
+	float: right;
+}
+
+.wrapper{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    background: #f8f8f8;
+	padding: 0px 0px;
+    max-width: 90%;
+}
+
+.big-image img{
+	width: 100%;
+    margin-bottom: -6px;
+}
+
+.hero {
+    padding: 45px 45px 45px 45px;
+    background-color: white;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.hero p{
+	line-height: 1.7;
+	color: rgb(51, 51, 51);
+	font-family: source_sans_proregular, Arial, sans-serif;
+	font-size: 19.2px;
+}
+
+.committees{
+	padding: 0px; 
+	padding-bottom: 30px;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.committee-title{
+	padding: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* background-color: rgba(255, 255, 255, 0.66); */
+	border-bottom: 1px solid #DEDEDE;
+    border-top: 1px solid #DCDBDB;
+}
+
+.committees .item h2{
+	margin: 0 20px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #494f50;
+    padding: 0px 0 0 0;
+    position: relative;
+}
+
+.committees p{
+	line-height: 1.7;
+	color: rgb(51, 51, 51);
+	font-family: source_sans_proregular, Arial, sans-serif;
+    min-height: 45px;
+    margin-top: 19px;
+    font-size: 16px;
+}
+
+.committees h2 a{
+    display: block;
+    padding: 5px 0;
+    color: #333;
+    text-decoration: none;
+    font-size: 21px;
+    margin-top: 9px;
+    font-weight: normal;
+    font-family: 'dejavu_serifbook';
+    text-decoration: none;
+	border-bottom: none;
+}
+
+.committees a:hover{
+	border-bottom: none;
+}
+
+div.desc p{
+	margin-bottom: 15px;
+}
+
+p.more{
+	margin: 0 auto;
+    width: 120px;
+}
+
+p.more a{
+	text-align: left;
+    display: block;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    position: relative;
+    background-color: #0072bc;
+    -webkit-transition: background-color 0.15s linear;
+    transition: background-color 0.15s;
+    color: white;
+    border-bottom: none;
+}
+
+p.more a:hover .icon{
+	right: 5px;
+}
+
+.counter-header{
+	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid #F1EDED;
+	padding: 15px;
+    font-size: 18px;
+}
+
+.counter-header p{
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #4B4C4E;
+	font-size: 20px;
+}
+
+.counter{
+	text-align: center;
+	padding: 30px;
+	padding-top:16px !important;
+	padding-bottom: 20px !important;
+}
+
+.counter span{
+	margin-right: 20px;
+}
+
+.items{
+	margin-top: 40px;
+}
+
+.item{
+	margin: 0 0px;
+    font-size: 1.3em;
+    padding: 0px 0 0 0;
+    position: relative;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.footer{
+	color: #898989;
+	border-top: 1px solid #F1EDED;
+	font-size: 0.8em;
+	background: #f8f8f8;
+	padding: 10px;
+}
+
+.footer p{
+	margin-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+	.wrapper{
+		max-width: 100%;
+	}
+	.nav-bar{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.logo{
+		float: none;
+	}
+	.logo a{
+		text-decoration: none;
+	}
+	p.branding{
+		float: none; 
+		margin: 0 auto;
+		color: white;
+		font-family: 'dejavu_serifbook';
+		font-size: 1.5em;
+	}
+	nav {
+		float: none !important;
+	}
+}

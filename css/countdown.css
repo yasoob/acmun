@@ -1,0 +1,46 @@
+.countDown{
+    display: inline-block;
+    margin: auto;
+}
+
+.countDown span{
+    display: block;
+    background: #5377BF;
+    color: #fff;
+    height: 54px;
+    float: left;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 45px;
+    line-height:normal;
+    text-align: center;
+    background-size: contain;                     /*If You want image background*/
+    background-repeat: repeat-x;                  /*If You want image background*/
+}
+
+#days:after,#hours:after,#minutes:after,#seconds:after,#weeks:after{
+    
+    font-size: 14px;
+    line-height:normal;
+    display: block;
+    width: inherit;
+    margin-top: 10px;
+    color: #5C5757;
+    text-align: center;
+}
+#days:after{
+    content: "Days";
+}
+#weeks:after{
+    content: "Weeks";
+}
+#hours:after{
+    content: "Hours";
+}
+#minutes:after{
+    content: "Minutes";
+}
+#seconds:after{
+    content: "Seconds";
+}
