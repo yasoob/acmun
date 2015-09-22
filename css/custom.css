@@ -161,6 +161,17 @@ h2.title{
 	border-bottom: none;
 }
 
+div.desc:first-child {
+    background-color: black;
+}
+
+div.desc{
+	padding: 0 20px;
+    background: url("../images/v-div.png") no-repeat left top;
+    min-height: 95px;
+}
+
+
 div.desc p{
 	margin-bottom: 15px;
 }
