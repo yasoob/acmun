@@ -1,5 +1,5 @@
 body {
-	/*background: #fff url('../images/bg-site.png') repeat top left;*/
+    background: #fff url('../images/concrete_seamless.png') repeat top left;
 	font-family: "source_sans_proregular", Arial, sans-serif;
 }
 
@@ -273,5 +273,14 @@ p.more a:hover .icon{
 	}
 	nav {
 		float: none !important;
+	}
+	.item{
+		width: 50%;
+	}
+}
+
+@media (max-width: 300px) {
+	.item{
+		width: 100%;
 	}
 }
