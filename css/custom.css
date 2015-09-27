@@ -111,6 +111,30 @@ h2.title{
     font-size: 19.2px;
 }
 
+.register-cta{
+    padding: 0px; 
+    padding-bottom: 30px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f8f8f8;
+    text-align: center;
+    padding-bottom: 0px
+}
+
+.register-cta a{
+    width: 100%;
+    font-size: 25px;
+    background-color: #5377BF;
+    display: block;
+    color: white;
+    transition: all .3s;
+    border-bottom: 0px;
+}
+
+.register-cta a:hover{
+    background-color: rgba(83, 119, 191, 0.73);
+    border-bottom: 0px;
+}
+
 .committees{
     padding: 0px; 
     padding-bottom: 30px;
@@ -227,7 +251,7 @@ p.more a:hover .icon{
     text-align: center;
     padding: 30px;
     padding-top:16px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 35px !important;
 }
 
 .counter span{
