@@ -152,7 +152,7 @@ h2.title{
 
 .venue{
     padding: 0px; 
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     background-color: #fafafa;
     border-bottom: 1px solid #f8f8f8;
 }
