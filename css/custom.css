@@ -1,5 +1,5 @@
 body {
-    background: #fff url('../images/concrete_seamless.png') repeat top left;
+    background: #fff url('../images/wrapper.jpg') repeat top left;
     font-family: "source_sans_proregular", Arial, sans-serif;
 }
 
@@ -284,6 +284,60 @@ p.more a:hover .icon{
     margin-bottom: 0px;
 }
 
+.directors{
+    padding: 0px;
+    padding-bottom: 30px;
+    background-color: #ecf0f1;
+    padding-top: 20px;
+}
+
+.directors .director-title{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-family: "source_sans_probold";
+    margin-top: 0;
+    padding: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.directors .item{
+    font-size: 1.3em;
+    padding: 0px 0 0 0;
+    position: relative;
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    margin: -22px 0px 0px 4%;
+    box-shadow: 0px 0px 4px #AFB9BC;
+    transition: all 0.3s;
+}
+
+.directors .item:hover{
+    box-shadow: 0px 0px 15px #AFB9BC;
+}
+
+.directors h2, .directors h3{
+    font-size: 0.9em;
+    font-family: "source_sans_proregular";
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.directors .item h2{
+    font-weight: bold;
+}
+
+.directors h3{
+    margin-bottom: 5px;
+}
+
+.d_img{
+    width: 88%;
+    margin-top: 11px;
+}
+
 @media (max-width: 600px) {
     .wrapper{
         max-width: 100%;
@@ -304,6 +358,18 @@ p.more a:hover .icon{
         color: white;
         font-family: 'dejavu_serifbook';
         font-size: 1.5em;
+    }
+    .directors{
+        margin-bottom: -50px;
+    }
+    .directors .item h2{
+        font-weight: 100;
+        font-family: "source_sans_proregular";
+        font-size: 0.9em;
+    }
+    .directors .item{
+        width: 44% !important;
+        margin-bottom: 50px;
     }
     nav {
         float: none !important;
