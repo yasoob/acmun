@@ -22,6 +22,89 @@ h2.title{
     margin-top: 0;
 }
 
+/*
+//
+//    ------------
+//    Menu Styling
+//    ------------
+//
+*/
+nav ul.sub-menu li:first-child a:hover{
+    border-radius: 5px 5px 0px 0px;
+}
+
+nav ul.sub-menu li:last-child a:hover{
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav li{
+    position: relative;
+}
+
+.nav-bar{
+    width: 100%
+}
+nav li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:180%;
+    padding:0px 0px;
+    position:absolute;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    top: 0px;
+    left: -45px;
+    background-color: white;
+    border-radius: 5px; 
+    text-align: center;
+    margin-left: 0px;
+}
+ 
+.sub-menu div.arrow{
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 7px solid #FBFBFB;
+    margin: 0 auto;
+    margin-top: -7px;
+}
+
+.sub-menu li {
+    display:block;
+    font-size:16px;
+    padding-right: 0px !important;
+    width: 100%;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(136, 161, 211, 0.16);
+}
+
+.sub-menu li:last-child{
+    border-bottom: none;
+}
+ 
+.sub-menu li a {
+    padding:5px 5px;
+    display:block;
+    border-top:none !important;
+    font-size: 0.9em;
+    color: #BBB2B2 !important;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:rgba(83, 119, 191, 0.69);
+    color: white !important;
+}
+
+/*
+    Sub Menu End
+*/
+
 .logo {
     float: left;
     margin-left: 10px;
