@@ -370,8 +370,15 @@ p.more a:hover .icon{
 .directors{
     padding: 0px;
     padding-bottom: 30px;
+    background-color: #FBF9F9;
     background-color: #ecf0f1;
     padding-top: 20px;
+    border-bottom: 2px solid #FBF9F9;
+    border-bottom-style: dotted;
+}
+
+.directors-mid{
+    background-color: #FBF9F9 !important;
 }
 
 .directors .director-title{
@@ -382,6 +389,7 @@ p.more a:hover .icon{
     padding: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: -50px;
 }
 
 .directors .item{
@@ -392,7 +400,7 @@ p.more a:hover .icon{
     float: left;
     text-align: center;
     background-color: white;
-    margin: -22px 0px 0px 4%;
+    margin: 40px 0px 0px 4%;
     box-shadow: 0px 0px 4px #AFB9BC;
     transition: all 0.3s;
 }
@@ -419,6 +427,79 @@ p.more a:hover .icon{
 .d_img{
     width: 88%;
     margin-top: 11px;
+}
+
+.hero-committee{
+    text-align: center;
+    padding: 45px;
+    background-color: white;
+}
+
+.hero-committee h1{
+    font-size: 2em;
+    font-family: "source_sans_probold";
+    /* text-transform: uppercase; */
+    margin-bottom: 0px;
+}
+.committee h3{
+    font-size: 1.4em;
+    font-family: "source_sans_probold";
+    margin-top: 0;
+    padding: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.66); 
+    border-bottom: 1px solid #DEDEDE;
+    border-top: 1px solid #DCDBDB;
+}
+
+.committee .meta{
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 4px #AFB9BC;
+}
+.committee .meta img{
+    width: 175px;
+}
+
+.committee .meta h4{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.committee .meta p{
+    text-align: center;
+    margin-bottom: 0px
+}
+
+.committee li{
+    margin-bottom: 0px;
+}
+.study{
+    float: left;
+}
+.study-guide{
+    float: right;
+    width: 200px !important;
+}
+
+.study-guide a{
+    border-bottom: none;
+}
+
+.study-guide img{
+    transform: rotate(20deg) !important;
+    transition: all .5s;
+    border: 8px solid white;
+    border-radius: 100px;
+}
+
+.study-guide a:hover img{
+    transform: rotate(0deg) !important;
 }
 
 @media (max-width: 600px) {
