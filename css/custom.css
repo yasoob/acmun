@@ -64,7 +64,26 @@ nav li:hover .sub-menu {
     text-align: center;
     margin-left: 0px;
 }
- 
+
+ul.sub-sub-menu{
+    margin: 0 auto;
+    margin-top: -37px !important;
+    transform: scale(0);
+    display: none;
+    background-color: white;
+    transition: all .5s;
+    position: absolute;
+    width: 100%;
+    margin-left: 174px;
+    border: 1px solid #D9D4D4;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.sub-menu li:hover ul.sub-sub-menu{
+    display: block;
+    transform: scale(1);
+}
+
 .sub-menu div.arrow{
     width: 0;
     height: 0;
@@ -99,6 +118,10 @@ nav li:hover .sub-menu {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:rgba(83, 119, 191, 0.69);
     color: white !important;
+}
+
+ul.sub-sub-menu a{
+    border-radius: 0px !important;
 }
 
 /*
