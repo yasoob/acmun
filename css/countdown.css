@@ -8,15 +8,17 @@
     background: #5377BF;
     color: #fff;
     height: 54px;
-    float: left;
+    /* float: left; */
+    display: inherit;
     margin-right: 5px;
     padding: 8px;
     border-radius: 5px;
     font-size: 45px;
-    line-height:normal;
+    line-height: normal;
     text-align: center;
-    background-size: contain;                     /*If You want image background*/
-    background-repeat: repeat-x;                  /*If You want image background*/
+    background-size: contain;
+    background-repeat: repeat-x;
+    /* margin-top: 30px; */
 }
 
 #days:after,#hours:after,#minutes:after,#seconds:after,#weeks:after{
