@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/countdown.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
 
@@ -34,6 +35,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/particles.min.js"></script>
   <script type="text/javascript" src="timer/jquery.countdown.min.js"></script>
 
 </head>
@@ -43,6 +45,16 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container wrapper">
     <div class="row">
+      <div class="twelve columns social-links">
+        <div class="btn-group">
+          <a class="btn btn-default" href="https://www.facebook.com/Aitchison-College-Model-United-Nations-Society-ACMUN-280824698715131/"><i class="fa fa-facebook-official"></i></a>
+          <a class="btn btn-default" href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="particles-js"></div>
+
       <div class="twelve columns nav-bar">
         <div class="logo">
           <a href="index.html">
@@ -52,31 +64,59 @@
         </div>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+                <a href="#">About Us</a>
+                <ul class="sub-menu">
+                  <div class="arrow"></div>
+                  <li><a href="coming-soon-committee.html">Secretary General</a></li>
+                  <li><a href="coming-soon-committee.html">Director General</a></li>
+                  <li><a href="coming-soon-committee.html">Secretariat</a></li>
+                  <li><a href="coming-soon-committee.html">Directors</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Committees</a>
+                <ul class="sub-menu">
+                  <div class="arrow"></div>
+                  <li>
+                    <a href="#">General Assembly</a>
+                    <ul class="sub-sub-menu">
+                      <li><a href="committees/general-assembly.html">Disarmament and International Security Committee</a></li>
+                      <li><a href="coming-soon-committee.html">Social, Humanitarian and Cultural Committee</a></li>
+                      <li><a href="coming-soon-committee.html">Special Political and Decolonization Committee</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="coming-soon-committee.html">Specialised Agencies</a></li>
+                  <li>
+                     <a href="#">Economic & Social Council</a>
+                     <ul class="sub-sub-menu">
+                       <li><a href="coming-soon-committee.html">DISEC</a></li>
+                       <li><a href="coming-soon-committee.html">SOHCUM</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="coming-soon-committee.html">Independent Bodies</a></li>
+                </ul>
+            </li>
             <li>
                 <a href="#">Information</a>
                 <ul class="sub-menu">
                   <div class="arrow"></div>
-                  <li><a href="#">Schedule</a></li>
-                  <li><a href="#">Outstation Information</a></li>
-                  <li><a href="#">Deadlines</a></li>
-                  <li><a href="#">Invite</a></li>
+                  <li><a href="coming-soon.html">Event Timeline</a></li>
+                  <li><a href="files/FINAL-2.pdf">ACMUN VII Invite</a></li>
+                  <li><a href="coming-soon.html">Schedule</a></li>
+                  <li><a href="accomodation.html">Outstation Information</a></li>
+                  <li><a href="expenses.html">expenses and deadlines</a></li>
+                  <li><a href="files/ACMUNVI_SamplePositionPaper.pdf">Position Paper template</a></li>
+                  <li><a href="coming-soon.html">Sample Draft Resolution</a></li>
                 </ul>
             </li>
-            <li><a href="aboutus.html">About Us</a></li>
             <li>
-                <a class="active" href="#">Committees</a>
-                <ul class="sub-menu">
-                  <div class="arrow"></div>
-                  <li><a href="committees/general-assembly.html">General Assembly</a></li>
-                  <li><a href="#">Specialised Agencies</a></li>
-                  <li><a href="#">Economic & Social Council</a></li>
-                  <li><a href="#">Independent Bodies</a></li>
-                </ul>
+                <a href="https://docs.google.com/forms/d/1caVsZfLOj6u8vrhxfpdm4A1zSB2eYH9pRbnvi4jj1ag/viewform?ts=567e90ff&edit_requested=true">Registration</a>
             </li>
-            <li><a href="#">Registration</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
-        </nav>
+        </nav>        
       </div>
     </div>
     <div class="row">
