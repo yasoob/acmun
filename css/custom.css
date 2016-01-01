@@ -538,20 +538,33 @@ p.more a:hover .icon{
     transform: rotate(0deg) !important;
 }
 
-
+.accomodation{
+    border-top: 1px solid silver;
+    padding: 30px;
+    background-color: white;
+}
 #particles-js {
   position: absolute;
   top: 36px;
   left: 0px;
   width: 100%;
-  height: 200px;
+  height: 100px;
   background-color: #5377BF;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
-
+.coming-soon{
+    padding: 30px;
+    text-align: center;
+}
+td{
+    border:none;
+}
+.contact-info{
+    padding-left: 4em;
+}
 @media (max-width: 600px) {
     .wrapper{
         max-width: 100%;
@@ -596,5 +609,8 @@ p.more a:hover .icon{
 @media (max-width: 300px) {
     .item{
         width: 100%;
+    }
+    .contact-info{
+        padding-left: 1em;
     }
 }
